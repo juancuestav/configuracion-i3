@@ -1,0 +1,9 @@
+
+shell mupdf simulacion-y-analisis-de-sistemas-con-promodel.pdf &
+shell wine MetalSlug4.exe
+shell wine ISIS.EXE &
+shell wine LICENCE.EXE 
+shell wine ideutilsupd.exe
+delete
+shell wine Ccsc.exe
+shell wine ccscoff.exe

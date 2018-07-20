@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------------------------------------------------------
+Antes de ejecutar el script «instalar.sh» usted debe contar con los siguientes paquetes en su sistema:
+
+- ranger
+- compton
+- rofi
+- feh
+
+-> Ahora puede ejecutar el script instalar.sh
+-------------------------------------------------------------------------------------------------------------------------------
+Para las notificaciones es necesario el paquete:
+- notify-osd
+
+En caso de que no aparezcan las notificaciones, instalar la siguiente biblioteca:
+- libnotify-bin
+
+*La forma de probar que las notificaciones funcionan es usando el comando « notify-send "Cualquier mensaje" ». Debe aparecer un rectángulo, en la parte superior-derecha de su pantalla, con el texto que colocó entre comillas.
+-------------------------------------------------------------------------------------------------------------------------------
+En caso de que al reiniciar la pc no se muestre el entorno i3 verificar las fuentes (tipos de letra) sin embargo lo mas probable es que sea por el archivo ~/.config/i3/compton.conf
+Solucion: Comentar la linea que usa compton en ~/.config/i3/config
+
+*Para comentar se usa el signo #
+-------------------------------------------------------------------------------------------------------------------------------
+Para modificar el tema debe instalar el paquete:
+- lxapearance
+
+El tema ya se encuentra en el sistema gracias al script instalar.sh solo debe seleccionarlo con el paquete lxapearance
+
+*Verifique que el paquete no esté comprimido o empaquetado en ~/.themes/
+-------------------------------------------------------------------------------------------------------------------------------
