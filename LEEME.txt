@@ -1,10 +1,11 @@
 -------------------------------------------------------------------------------------------------------------------------------
 Antes de ejecutar el script «instalar.sh» usted debe contar con los siguientes paquetes en su sistema:
 
-- ranger
-- compton
-- rofi
-- feh
+- ranger	(Gestor de archivos en terminal)
+- compton	(Efectos de transicion en cambios de pantalla)
+- rofi		(Menu de aplicaciones)
+- feh		(Visor de imagenes usado como wallpaper)
+- tilix 	(Emulador de terminal)
 
 -> Ahora puede ejecutar el script instalar.sh
 -------------------------------------------------------------------------------------------------------------------------------
@@ -28,3 +29,14 @@ El tema ya se encuentra en el sistema gracias al script instalar.sh solo debe se
 
 *Verifique que el paquete no esté comprimido o empaquetado en ~/.themes/
 -------------------------------------------------------------------------------------------------------------------------------
+ROFI
+- Para mostrar menu de aplicaciones ejecute Win+Z
+- Para mostrar tab de aplicaciones ejecutandose Win+tab
+- Para instalar un tema copie los archivos que se encuentran dentro de rofi_themes a /usr/share/rofi/themes y desde la terminal ejecute rofi-theme-selector. Vista previa del tema con ENTER y ALT+A para establecer.
+
+ICONOS Y TEMAS
+- Para que los iconos sean detectados por lxapearance debe desempaquetar el tar que se encuentra en $HOME/.icons
+- Para que los temas sean detectados por lxapearance debe desempaquetar el tar que se encuentra en $HOME/.themes
+
+SONIDO (Debian netinstall)
+- Instale el paquete alsa-utils y use la aplicacion alsamixer para activar sonido
